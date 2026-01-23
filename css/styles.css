@@ -222,10 +222,6 @@ a {
   padding: 120px 0;
 }
 
-.portfolio-container {
-  border: 1px solid #e7e9fc;
-}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -239,10 +235,6 @@ a {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:first-child {
-  width: calc((100% - 48px) / 3);
-}
-
 .portfolio-item:hover {
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -253,6 +245,8 @@ a {
 .portfolio-content {
   padding: 32px 16px;
   text-align: left;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 /* Footer */
